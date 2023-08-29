@@ -6,7 +6,8 @@ metadata:
     argocd/app-name: my-quarkus-app51-dev
     backstage.io/kubernetes-id: my-quarkus-app51
     backstage.io/kubernetes-namespace: my-quarkus-app51-dev
-    janus-idp.io/tekton-enabled : 'true'
+    janus-idp.io/tekton-enabled : 'false'
+    teamcity/project-id: TEAMCITY_NAME
     github.com/project-slug: janus-idp-demo/backstage-sample-quarkus-app51
     backstage.io/techdocs-ref: dir:.
   tags:
